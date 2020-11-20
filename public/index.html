@@ -17,7 +17,6 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
@@ -39,9 +38,10 @@
         </nav>
         <!-- Masthead-->
         <header class="headerContent">
-            <center>
-                <img src="assets/img/movie.gif" style="padding-top:10%;position:inherit;overflow: hidden;z-index: -1;max-width: 100%;">
-            </center>
+            <video width="520" height="440" style="padding-top: 10%;" loop autoplay muted>
+                <source src="assets/img/movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+            </video>
         </header>
         <!-- Services-->
         <section class="page-section" id="services">
@@ -57,7 +57,7 @@
                             <i class="fas fa-paint-brush fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">Product design</h4>
-                        <p class="text-muted">Working hand-in-hand with you as a partner, we transform your ideas into reality. Our designers create customized, user-friendly digital experiences.</p>
+                        <p class="text-muted">Working hand-in-hand with you as a partner, we transform your ideas into reality. Our expert designers create customized, user-friendly digital experiences.</p>
                     </div>
                     <div class="col-md-3">
                         <span class="fa-stack fa-4x">
@@ -274,7 +274,7 @@
                             <p class="text-muted">Game/Backend Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="mailto:karlo.skok13@gmail.com"><i class="fas fa-envelope"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/karlo-skok-297095166/"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/karlo.skok.9"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -284,7 +284,7 @@
                             <p class="text-muted">UI Designer/Frontend Developer</p>
                             <a class="btn btn-dark btn-social mx-2" href="mailto:strucelj.leona@gmail.com"><i class="fas fa-envelope"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/leona-%C5%A1trucelj/"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/estiel.stl.nails/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                         </div>
                     </div>
                 </div>
@@ -305,13 +305,13 @@
                         <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/wellfit.png" alt="" /></a>
                     </div>
                     <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/fipu.png" alt="" /></a>
+                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/" alt="" /></a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Contact-->
-        <section class="page-section" id="contact">
+        <section class="page-section" id="contact" >
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
@@ -319,7 +319,8 @@
                         We’re always looking for new opportunities so feel free to check what services we offer and contact us.
                     </h3>
                 </div>
-                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://formspree.io/f/xzbkvwry"
+                method="POST">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
